@@ -8,8 +8,9 @@ To repozytorium zawiera skrypty do uruchomienia i zarządzania nodem Gensyn na V
 ```bash
 bash <(curl -s https://raw.githubusercontent.com/mminer24/gensyn_pub/main/install_gensyn_node.sh)
 
-Aktualizacja node’a
+###  Aktualizacja node’a
 
+```bash
 bash <(curl -s https://raw.githubusercontent.com/mminer24/gensyn_pub/main/update_gensyn_node.sh)
 
 📄 Obsługa tmux
@@ -28,7 +29,6 @@ EOF
 
 ### 📌 4. Wypchnij wszystko na GitHuba
 
-```bash
-git add .
-git commit -m "Dodano skrypty instalacji, aktualizacji i README"
+git add README.md
+git commit -m “✅ Poprawione formatowanie README.md”
 git push origin main
